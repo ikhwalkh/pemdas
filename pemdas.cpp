@@ -51,7 +51,7 @@ void tampilanprima() {
     }
 }
 
-// prosedur hasil fibonacci
+// prosedur hasil fibonacci         //ini untuk menampilkan hasil fibonacci toloong saya puusing
 void tampilanfibonacci() {
     if (cekfibonacci(angka)) {
         cout << angka << " termasuk bilangan fibonacci" << endl;
