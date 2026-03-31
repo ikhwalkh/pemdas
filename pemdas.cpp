@@ -68,4 +68,33 @@ void menu() {
     cout << "0 keluar" << endl;
     cout << "pilih yang mana ";
 }
- 
+
+ // main output nya && untuk menjalankan nya
+ int main() {
+    while (true) {
+        menu();
+        cin >> pilihan;
+
+        switch (pilihan) {
+            case 1:
+            inputangka();
+            tampilanprima();
+            break;
+
+            case 2:
+            inputangka();
+            tampilanfibonacci();
+            break;
+
+            case 0:
+            cout << " program selesai. makasih yh saya pusing ni!!!!!" << endl;
+            return 0;
+
+            default:
+            cout << "ngapain memilih yang tidak valid pilih yang ada saja dong" << endl;
+
+        }
+    }
+
+    return 0;
+ }
