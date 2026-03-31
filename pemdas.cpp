@@ -41,3 +41,13 @@ void inputangka() {
     cout << "masukkan angka ";
     cin >> angka;
 }
+
+// prosedur hasil prima
+void tampilanprima() {
+    if (cekprima(angka)) {
+        cout << angka << " adalah bilangan prima" << endl;
+    } else {
+        cout << angka << " bukan bilangan prima" << endl;
+    }
+}
+ 
