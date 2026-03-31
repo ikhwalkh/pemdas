@@ -50,4 +50,13 @@ void tampilanprima() {
         cout << angka << " bukan bilangan prima" << endl;
     }
 }
+
+// prosedur hasil fibonacci
+void tampilanfibonacci() {
+    if (cekfibonacci(angka)) {
+        cout << angka << " termasuk bilangan fibonacci" << endl;
+    } else {
+        cout << angka << " bukan bilangan fibonacci" << endl;
+    }
+}
  
