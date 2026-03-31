@@ -42,7 +42,7 @@ void inputangka() {
     cin >> angka;
 }
 
-// prosedur hasil prima
+// prosedur hasil prima           // ini untuk menampilkan hasil prima tolonnh saya pusing
 void tampilanprima() {
     if (cekprima(angka)) {
         cout << angka << " adalah bilangan prima" << endl;
