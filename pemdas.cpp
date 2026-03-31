@@ -36,7 +36,7 @@ bool cekfibonacci(int n) {
     return false;
 }
 
-// prosedur input angka
+// prosedur input angka      //ini untuk membuat input data/angka saya pusing
 void inputangka() {
     cout << "masukkan angka ";
     cin >> angka;
